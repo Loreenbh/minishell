@@ -31,5 +31,5 @@ git clone https://github.com/Loreenbh/minishell.git
 Build the project and run the shell:
 ```bash
 make
-./minihell
+./minishell
 ```
