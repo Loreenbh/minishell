@@ -45,4 +45,3 @@ minishell> ls -l | grep README
 minishell> exit
 $
 ```
-```
