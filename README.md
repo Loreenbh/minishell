@@ -23,13 +23,26 @@ Minishell is a simplified version of a Unix shell that supports:
 
 ## Getting Started
 
-Clone the repository:
+### Prerequisites
+- Linux / MacOS
+- GCC
+- `libreadline` library (`sudo apt install libreadline-dev` on Ubuntu/Debian)
 
+### Clone & Build
 ```bash
 git clone https://github.com/Loreenbh/minishell.git
-```
-Build the project and run the shell:
-```bash
+cd minishell
 make
 ./minishell
+```
+### Example Usage
+```bash
+$ ./minishell
+minishell> echo Hello World
+Hello World
+minishell> ls -l | grep README
+-rw-r--r-- 1 user user 1234 README.md
+minishell> exit
+$
+```
 ```
